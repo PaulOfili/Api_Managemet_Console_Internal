@@ -1,0 +1,44 @@
+.ant-table-tbody > tr > td {
+    border-bottom: 1px solid #e8e8e8;
+    -webkit-transition: all 0.3s, border 0s;
+    transition: all 0.3s, border 0s;
+    width: auto;
+    word-break: break-all;
+  }
+  
+  
+  .ant-table-thead>tr.ant-table-row-hover:not(.ant-table-expanded-row)>td, .ant-table-tbody>tr.ant-table-row-hover:not(.ant-table-expanded-row)>td, .ant-table-thead>tr:hover:not(.ant-table-expanded-row)>td, .ant-table-tbody>tr:hover:not(.ant-table-expanded-row)>td {
+    background: #e6f7ff !important;
+  }
+  
+  .ant-table-thead > tr > th {
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: bolder !important;
+    text-align: left;
+    background: #fafafa;
+    border-bottom: 1px solid #e8e8e8;
+    -webkit-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+  }
+
+  #back-to-top-up .ant-back-top {
+    bottom: 100px;
+  }
+ .ant-back-top-inner {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    background-color: #1088e9;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .right-float{ 
+    float: right;
+  }
+
+  .left-float{ 
+    float: left;
+  }

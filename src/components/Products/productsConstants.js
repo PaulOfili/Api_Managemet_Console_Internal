@@ -1,0 +1,22 @@
+import keyMirror  from 'key-mirror';
+
+export default keyMirror({
+  GET_PRODUCTS: null,
+  GET_PRODUCTS_SUCCESS: null,
+  GET_PRODUCTS_FAILURE: null,
+  GET_PRODUCT: null,
+  GET_PRODUCT_SUCCESS: null,
+  GET_PRODUCT_FAILURE: null,
+  SAVE_PRODUCT:null,
+  SAVE_PRODUCT_SUCCESS: null,
+  SAVE_PRODUCT_FAILURE: null,
+  DELETE_PRODUCT: null,
+  DELETE_PRODUCT_SUCCESS: null,
+  DELETE_PRODUCT_FAILURE: null,
+  CREATE_RESOURCE: null,
+  CREATE_RESOURCE_FAILURE: null,
+  DELETE_RESOURCE: null,
+  DELETE_RESOURCE_SUCCESS: null,
+  DELETE_RESOURCE_FAILURE: null,
+  SET_PRODUCT: null,
+});
